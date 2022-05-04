@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Componente <Counter/> Deve renderizar componente de Counter sem problemas 1`] = `
+<div>
+  <div
+    class="sc-bczRLJ"
+  >
+    <p
+      class="sc-gsnTZi"
+    >
+      <strong>
+        Hooks - useEffect
+      </strong>
+    </p>
+    <p
+      class="sc-gsnTZi"
+    >
+      0
+       atualizando!
+    </p>
+    <p
+      class="sc-gsnTZi"
+    >
+      O Usuário clicou 
+      0
+       vezes no contador!
+    </p>
+    <button
+      class="sc-dkzDqf"
+    >
+      Adicionar
+    </button>
+  </div>
+</div>
+`;
