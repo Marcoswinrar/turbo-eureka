@@ -1,7 +1,6 @@
 import * as S from './styled'
 import { useEffect, useState } from 'react'
 
-
 export const Counter = () => {
   const [count, setCount] = useState(0)
   const [timer, setTimer] = useState(0)
@@ -36,7 +35,7 @@ export const Counter = () => {
 
   return (
     <S.Wrapper>
-      <S.Text><strong>Hooks - useEffect</strong></S.Text>
+      <S.Text><strong>Estudo sobre hooks - useEffect</strong></S.Text>
       <S.Text>{timer} atualizando!</S.Text>
       <S.Text>O Usuário clicou {count} vezes no contador!</S.Text>
       <S.Button onClick={() => setCount(prev => prev + 1)}>Adicionar</S.Button>

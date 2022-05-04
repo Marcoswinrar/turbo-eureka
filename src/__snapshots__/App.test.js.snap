@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <h2>
+      React API
+    </h2>
+    <div
+      class="sc-hKMtZM HhcTB"
+    >
+      <section
+        class="sc-eCYdqJ kYIXbH"
+      >
+        <header
+          class="sc-gKXOVf jwCYRe"
+        >
+          <h3
+            class="sc-jSMfEi bWEXfk"
+          >
+            Hooks - useEffect
+          </h3>
+        </header>
+      </section>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Render do <App/> Deve renderizar o App sem problemas 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <h2>
+      React API
+    </h2>
+    <div
+      class="sc-hKMtZM HhcTB"
+    >
+      <section
+        class="sc-eCYdqJ kYIXbH"
+      >
+        <header
+          class="sc-gKXOVf jwCYRe"
+        >
+          <h3
+            class="sc-jSMfEi bWEXfk"
+          >
+            Hooks - useEffect
+          </h3>
+        </header>
+      </section>
+    </div>
+  </div>
+</div>
+`;

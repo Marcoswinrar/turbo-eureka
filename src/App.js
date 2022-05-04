@@ -1,10 +1,11 @@
 import './App.css';
-import Counter from './hooks/useEffect';
+import ListExpand from './components/list-expand';
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      <h2>React API</h2>
+      <ListExpand />
     </div>
   )
 }

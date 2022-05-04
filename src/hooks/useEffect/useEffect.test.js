@@ -13,7 +13,7 @@ describe("Componente <Counter/>", () => {
     const { container } = render(<Counter />)
 
     expect(container).toMatchSnapshot()
-    expect(screen.queryByText(/Hooks - useEffect/)).toBeInTheDocument()    
+    expect(screen.queryByText(/Estudo sobre hooks - useEffect/)).toBeInTheDocument()    
   })
   
   it("Deve iniciar o timer ao carregar o Counter",() => {
