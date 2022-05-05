@@ -9,7 +9,7 @@ const Callback = () => {
   // Callback guarda como referencia o valor dos itens alterados, cuidar com o 2 param
   const atualizaUsuario = useCallback(() => {
     setUsuario({nome: 'Eduardo', categoria: categoria})
-  }, [])
+  }, [categoria])
 
 
   console.log("NOME USUÁRIO:", usuario.nome)
