@@ -19,11 +19,11 @@ const Lista = () => {
   const [count, setCount] = useState(0)
 
   //Guarda a referencia(memoize) do getUsuarios, para não renderizar
-  const getUsuarios = async () => {
+  const getUsuarios = useCallback(async () => {
     console.log('----- getUsuarios')
     const { data } = await axios.get("https://jsonplaceholder.typicode.com/users")
     setUsuarios(data)
-  }
+  })
 
 
   const paginar = () => getUsuarios()
